@@ -8,11 +8,6 @@ Section A deals with the use of scalar data types in Python. Scalars cannot be s
  
 -Used to enter the student name at a time and also storing the grade at a time
  
-example:
- 
-```python
-name = input("Enter student name: ")
-```
  
 ### *Integer (int)*
  
@@ -20,29 +15,14 @@ name = input("Enter student name: ")
  
 -Has control as to howmany times the loop runs
  
-example:
- 
-```python
-num_students = int(input("Enter number of students: "))
-```
- 
 ### *Float (float)*
  
 -Used to make sure that the number entered is exactly between 0-100
  
-example:
- 
-```python
-grade = float(input(f"Enter {subject} grade (0-100): "))
-```
 # SECTION B
 Section B shows how lists and tuples were used for storing and collecting of data.
 Lists are used to store multiple grades that can change during program execution.
-Example:
  
-```python
-grades = [78, 65, 89]
-```
 Operations performed on lists include:
 -Adding grades
  
@@ -52,28 +32,14 @@ Operations performed on lists include:
  
 -Calculating averages
 Tuples are used to store information that cannot be modified or changed.
-Example:
- 
-```python
-subjects = ("Maths", "English", "Science")
-```
+
 This section demonstrates the differences between mutable (lists) and immutable (tuples) data structures.
 # Section C: Dictionaries
  
 Section C shows how nested dictionaries are used to store student records.
  
 The dictionary structure allows each student to have multiple subjects and grades
-Example:
- 
-```python
-students = {
-"Anesu": {
-"Maths": [78, 85],
-"English": [70, 82],
-"Science": [90]
-}
-}
-```
+
 dictionaries were used to:
 - Add student records
  
@@ -87,21 +53,7 @@ dictionaries were used to:
  
 - Display all records
 reason for using dictionaries was the help to access the student's information quickly
-# Example Input and Output
- 
-```text
-===== STUDENT MANAGEMENT SYSTEM =====
-1.Add Student
-2.Update Student Grades
-3.Remove Student
-4.Search Student
-5.View Subject Grades
-6.Display All Students
-7.Exit
-Enter choice: 1
-Enter student name: Anesu
-Student added successfully.
-```
+
 # Assumptions
 -Student names are unique.
 -Subjects available are Maths, English, and Science.
