@@ -26,7 +26,7 @@ example:
 num_students = int(input("Enter number of students: "))
 ```
  
-### *Float (float) for student marks and averages.*
+### *Float (float)*
  
 -Used to make sure that the number entered is exactly between 0-100
  
