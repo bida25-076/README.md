@@ -104,17 +104,13 @@ Student added successfully.
 ```
 # Assumptions
 -Student names are unique.
- 
--Grades are entered as numeric values.
- 
 -Subjects available are Maths, English, and Science.
+
 # Limitations
--Data is stored only while the program is running.
- 
+-Data can only be stored while the program is running.
 -Records are not saved to a file or database.
- 
 -Duplicate student names are not allowed.
- 
 -Invalid user input may produce errors if validation is not implemented.
+
 # Conclusion
-This project demonstrates the practical application of Python programming concepts including scalars, lists, tuples, dictionaries, functions, and basic data management techniques. The Student Management System provides an organized way to manage student information and grades while ensuring understanding of programming structures.
+This project shows how python programming concepts were applied practically including scalars, lists, tuples, dictionaries, functions, and basic data management techniques. 
